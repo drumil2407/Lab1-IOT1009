@@ -56,6 +56,10 @@ public class DiceGame extends Die
     System.out.println("");
     System.out.print("The New value is ");
     d.rollDice();
+    System.out.println("");
+    System.out.println("Setting the d20 to show 20...");
+    System.out.print("The side up is now ");
+    System.out.print(d1.numOfSides);
 
   }
 
